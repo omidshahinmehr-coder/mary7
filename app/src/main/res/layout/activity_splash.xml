@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient">
+
+    <LinearLayout
+        android:id="@+id/splashContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/splashTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:scaleX="0.82"
+            android:scaleY="0.82"
+            android:text="@string/splash_title"
+            android:textSize="46sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:letterSpacing="0.16"
+            android:textColor="#29D6FF" />
+
+        <View
+            android:id="@+id/splashDivider"
+            android:layout_width="150dp"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="18dp"
+            android:alpha="0"
+            android:scaleX="0"
+            android:background="#29D6FF" />
+
+        <TextView
+            android:id="@+id/splashSubtitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:alpha="0"
+            android:translationY="20dp"
+            android:text="@string/splash_subtitle"
+            android:textSize="13sp"
+            android:letterSpacing="0.3"
+            android:textColor="#6FB8D9" />
+
+    </LinearLayout>
+
+</FrameLayout>

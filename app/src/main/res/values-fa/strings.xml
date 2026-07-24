@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ردیاب خودروی من</string>
+    <string name="about_credit">طراح: امید شاهین مهر\nایمیل: omidshahinmehr@gmail.com</string>
+
+    <!-- Login -->
+    <string name="login_hint_password">رمز عبور</string>
+    <string name="login_hint_confirm_password">تکرار رمز عبور</string>
+    <string name="login_button_submit_login">ورود</string>
+    <string name="login_button_submit_set">تعیین رمز و ورود</string>
+    <string name="login_button_biometric">ورود با اثر انگشت</string>
+    <string name="login_title_set_password">برای ورود به برنامه یک رمز عبور تعیین کنید</string>
+    <string name="login_title_enter_password">برای ورود، رمز عبور را وارد کنید</string>
+    <string name="login_biometric_prompt_title">ورود با اثر انگشت</string>
+    <string name="login_biometric_prompt_subtitle">برای ورود به My Car Tracker انگشت خود را روی سنسور قرار دهید</string>
+    <string name="login_biometric_prompt_negative">استفاده از رمز عبور</string>
+    <string name="login_error_password_too_short">رمز عبور باید حداقل ۴ کاراکتر باشد</string>
+    <string name="login_error_confirm_mismatch">تکرار رمز عبور مطابقت ندارد</string>
+    <string name="login_error_wrong_password">رمز عبور اشتباه است</string>
+
+    <!-- Mode selection -->
+    <string name="mode_selection_subtitle">می‌خواهید در چه حالتی وارد شوید؟</string>
+    <string name="mode_selection_tracker_button">حالت ردیاب (Tracker)\nاین گوشی، گوشیِ ماشین/ردیاب است</string>
+    <string name="mode_selection_viewer_button">حالت نمایشگر (Viewer)\nاین گوشی، برای کنترل و مشاهده است</string>
+    <string name="mode_selection_security_button">تنظیمات امنیتی (رمز عبور / اثر انگشت)</string>
+
+    <!-- Language picker -->
+    <string name="language_button_description">تغییر زبان</string>
+    <string name="language_dialog_title">انتخاب زبان</string>
+    <string name="language_option_system">پیش‌فرض سیستم</string>
+    <string name="language_option_persian">فارسی (Persian)</string>
+    <string name="language_option_english">English (انگلیسی)</string>
+
+    <!-- SMS send-failure feedback -->
+    <string name="command_send_failed_toast">ارسال دستور «%1$s» ناموفق بود (بدون آنتن یا رادیو در دسترس نیست) — دوباره تلاش کنید.</string>
+
+    <!-- Security settings -->
+    <string name="security_settings_title">تنظیمات امنیتی</string>
+    <string name="security_settings_biometric_switch">ورود با اثر انگشت فعال باشد</string>
+    <string name="security_settings_change_password_header">تغییر رمز عبور</string>
+    <string name="security_settings_current_password_label">رمز عبور فعلی:</string>
+    <string name="security_settings_new_password_label">رمز عبور جدید:</string>
+    <string name="security_settings_confirm_new_password_label">تکرار رمز عبور جدید:</string>
+    <string name="security_settings_change_password_button">تغییر رمز عبور</string>
+    <string name="security_settings_biometric_unavailable">ورود با اثر انگشت (این گوشی اثر انگشت ثبت‌شده یا سخت‌افزار لازم را ندارد)</string>
+    <string name="security_settings_biometric_enabled">ورود با اثر انگشت فعال شد</string>
+    <string name="security_settings_biometric_disabled">ورود با اثر انگشت غیرفعال شد</string>
+    <string name="security_settings_error_current_wrong">رمز عبور فعلی اشتباه است</string>
+    <string name="security_settings_error_new_too_short">رمز عبور جدید باید حداقل ۴ کاراکتر باشد</string>
+    <string name="security_settings_error_confirm_mismatch">تکرار رمز عبور جدید مطابقت ندارد</string>
+    <string name="security_settings_success">رمز عبور با موفقیت تغییر کرد</string>
+
+    <!-- Splash -->
+    <string name="splash_title">lboodl</string>
+    <string name="splash_subtitle">ردیاب خودرو</string>
+
+    <!-- Tracker main screen -->
+    <string name="tracker_screen_title">My Car Tracker — ردیاب (Tracker)</string>
+    <string name="tracker_log_view_header">مشاهده فایل لاگ</string>
+    <string name="tracker_log_default_hint">فایلی انتخاب نشده — فایل لاگ فعال به‌صورت پیش‌فرض نمایش داده می‌شود</string>
+    <string name="tracker_browse_button">Browse — انتخاب فایل لاگ CSV</string>
+    <string name="tracker_settings_button">تنظیمات</string>
+    <string name="tracker_command_history_button">تاریخچه دستورهای دریافتی</string>
+    <string name="tracker_log_no_file_yet">هنوز فایل لاگی ایجاد نشده است.</string>
+    <string name="tracker_log_active_file">فایل فعال: %1$s</string>
+    <string name="tracker_log_read_error">خطا در خواندن فایل لاگ فعال.</string>
+    <string name="tracker_log_selected_file">فایل انتخاب‌شده: %1$s</string>
+    <string name="tracker_log_open_failed">امکان باز کردن فایل نبود</string>
+    <string name="tracker_log_selected_read_error">خطا در خواندن فایل انتخاب‌شده</string>
+    <string name="tracker_trip_stats_button">آمار سفر</string>
+    <string name="tracker_trip_stats_not_enough_data">داده‌ی کافی برای محاسبه‌ی آمار وجود ندارد.</string>
+    <string name="tracker_trip_duration_format">%1$d ساعت و %2$d دقیقه</string>
+    <string name="tracker_trip_stats_content">تعداد نقاط: %1$d\nمسافت کل: %2$s کیلومتر\nمدت زمان: %3$s\nسرعت میانگین: %4$s کیلومتر/ساعت\nسرعت حداکثر: %5$s کیلومتر/ساعت</string>
+
+    <!-- Tracker command history -->
+    <string name="command_history_title">تاریخچه دستورهای دریافتی</string>
+    <string name="command_history_empty">هنوز دستوری دریافت نشده.</string>
+    <string name="command_history_clear_button">پاک کردن تاریخچه</string>
+    <string name="command_history_cleared_toast">تاریخچه پاک شد</string>
+
+    <!-- Tracker settings screen -->
+    <string name="tracker_settings_header">My Car Tracker — ارسال موقعیت مکانی از طریق پیامک</string>
+    <string name="tracker_settings_intro1">با پیامک \'sendloc\' از یکی از شماره‌های مجاز زیر، موقعیت فوری ارسال می‌شود.</string>
+    <string name="tracker_settings_intro2">با \'autosend 30 on\' یا \'autosend off\' ارسال خودکار پیامکی از راه دور کنترل می‌شود. با \'sendlog\' فایل‌های لاگ (فشرده zip) به ایمیل ارسال می‌شوند (نیاز به اینترنت)، با \'dellog\' آرشیوهای قدیمی حذف می‌شوند، و با \'ping\' وضعیت زنده‌بودن و باتری ردیاب پرسیده می‌شود.</string>
+    <string name="tracker_settings_admin_numbers_label">شماره‌های مجاز برای این دستورات (با کاما جدا کنید):</string>
+    <string name="tracker_settings_numbers_hint">مثلا 09121234567, 09123334455</string>
+    <string name="tracker_settings_autosend_numbers_label">شماره(های) ارسال خودکار موقعیت و هشدار حرکت (با کاما جدا کنید):</string>
+    <string name="tracker_settings_autosend_interval_label">بازه ارسال خودکار پیامکی (دقیقه، حداقل 15):</string>
+    <string name="tracker_settings_interval_hint">مثلا 60</string>
+    <string name="tracker_settings_autosend_enable_switch">فعال‌سازی ارسال خودکار پیامکی</string>
+    <string name="tracker_settings_log_save_header">ذخیره‌ی دوره‌ای مختصات در فایل (مستقل از ارسال خودکار پیامکی)</string>
+    <string name="tracker_settings_log_save_note">این کار همیشه با تایمر خودش انجام می‌شود، چه ارسال خودکار پیامکی روشن باشد چه خاموش.</string>
+    <string name="tracker_settings_log_interval_label">بازه ذخیره در فایل (دقیقه، حداقل 15):</string>
+    <string name="tracker_settings_min_distance_label">حداقل فاصله جابجایی برای ثبت در فایل (متر، 0 = غیرفعال یعنی همیشه ثبت شود):</string>
+    <string name="tracker_settings_min_distance_hint">مثلا 200</string>
+    <string name="tracker_settings_movement_alert_switch">ارسال پیامک به شماره(های) بالا وقتی این میزان جابجایی رخ دهد</string>
+    <string name="tracker_settings_battery_alert_header">هشدار باتری کم</string>
+    <string name="tracker_settings_battery_alert_note">اگر فعال باشد، با رسیدن باتری گوشیِ ردیاب به آستانه‌ی زیر (یا بازگشت به بالای آن)، یک پیامک هشدار به شماره‌های مجاز فرستاده می‌شود.</string>
+    <string name="tracker_settings_battery_alert_switch">فعال‌سازی هشدار باتری کم</string>
+    <string name="tracker_settings_battery_threshold_label">آستانه‌ی هشدار (درصد باتری):</string>
+    <string name="tracker_settings_battery_hint">مثلا 15</string>
+    <string name="tracker_settings_geofence_header">حصار جغرافیایی (Geofence)</string>
+    <string name="tracker_settings_geofence_note">اگر فعال باشد، وقتی خودرو از محدوده‌ی دایره‌ای زیر خارج یا به آن بازگردد، یک پیامک هشدار به شماره‌های مجاز فرستاده می‌شود.</string>
+    <string name="tracker_settings_geofence_switch">فعال‌سازی حصار جغرافیایی</string>
+    <string name="tracker_settings_geofence_radius_label">شعاع محدوده (متر):</string>
+    <string name="tracker_settings_geofence_radius_hint">مثلا 500</string>
+    <string name="tracker_settings_set_geofence_center_button">ثبت موقعیت فعلی به‌عنوان مرکز محدوده</string>
+    <string name="geofence_pick_on_map_button">انتخاب از روی نقشه</string>
+    <string name="geofence_picker_instructions">روی نقشه لمس کنید یا سنجاق را بکشید تا به نقطه‌ی دلخواه برسد، سپس با دکمه‌ی ✓ تأیید کنید.</string>
+    <string name="geofence_source_current_location">موقعیت فعلی</string>
+    <string name="tracker_settings_email_header">تنظیمات ارسال فایل لاگ به ایمیل (برای دستور sendlog)</string>
+    <string name="tracker_settings_email_note">برای ارسال ایمیل، اپ باید با یک حساب ایمیل واسط وارد شود. توصیه می‌شود یک حساب Gmail مخصوص همین کار بسازید و از آن یک «App Password» بگیرید (نه رمز عبور اصلی جیمیل).</string>
+    <string name="tracker_settings_recipient_email_label">ایمیل گیرنده (جایی که لاگ باید ارسال شود):</string>
+    <string name="tracker_settings_recipient_email_hint">مثلا you@example.com</string>
+    <string name="tracker_settings_sender_email_label">ایمیل فرستنده (حساب واسط برای ارسال):</string>
+    <string name="tracker_settings_sender_email_hint">مثلا mycartracker@gmail.com</string>
+    <string name="tracker_settings_app_password_label">App Password ایمیل فرستنده:</string>
+    <string name="tracker_settings_app_password_hint">App Password ۱۶ کاراکتری Gmail</string>
+    <string name="tracker_settings_smtp_host_label">آدرس سرور SMTP:</string>
+    <string name="tracker_settings_smtp_port_label">پورت SMTP:</string>
+    <string name="tracker_settings_pin_header">کد امنیتی دستورها (اختیاری)</string>
+    <string name="tracker_settings_pin_note">اگر این کد را تنظیم کنید، هر دستور پیامکی باید با همین کد شروع شود (مثلاً «1234 sendloc»)؛ در غیر این صورت نادیده گرفته می‌شود. همین کد باید در صفحه‌ی «تنظیمات Tracker» روی گوشیِ نمایشگر هم وارد شود.</string>
+    <string name="tracker_settings_pin_hint">خالی = بدون کد امنیتی</string>
+    <string name="tracker_settings_background_header">پایداری اجرا در پس‌زمینه</string>
+    <string name="tracker_settings_background_note">بعضی گوشی‌ها اپ‌های پس‌زمینه را برای صرفه‌جویی باتری می‌بندند و ردیابی را مختل می‌کنند. با زدن دکمه‌ی زیر، از اندروید بخواهید این اپ را از بهینه‌سازی باتری معاف کند.</string>
+    <string name="tracker_settings_battery_optimization_button">معافیت از بهینه‌سازی باتری</string>
+    <string name="tracker_settings_save_button">ذخیره و درخواست مجوزها</string>
+    <string name="tracker_settings_manage_zones_button">مدیریت مناطق اضافی (اختیاری)</string>
+    <string name="tracker_settings_permissions_denied">برخی مجوزها داده نشد. بدون آن‌ها برنامه به‌درستی کار نخواهد کرد.</string>
+    <string name="tracker_settings_battery_optimization_unsupported_os">این قابلیت فقط از اندروید ۶ (Marshmallow) به بعد در دسترس است؛ نسخه‌ی اندروید این گوشی قدیمی‌تر است.</string>
+    <string name="tracker_settings_battery_optimization_unavailable">این قابلیت روی این گوشی در دسترس نیست</string>
+    <string name="tracker_settings_battery_optimization_already_exempt">این برنامه از قبل از بهینه‌سازی باتری معاف است</string>
+    <string name="tracker_settings_battery_optimization_failed">این گوشی از تنظیم معافیت باتری پشتیبانی نمی‌کند یا این صفحه رویش در دسترس نیست.</string>
+    <string name="tracker_settings_geofence_center_current">مرکز فعلی: %1$s, %2$s</string>
+    <string name="tracker_settings_geofence_center_not_set">مرکزی تنظیم نشده — روی دکمه‌ی بالا بزنید تا موقعیت فعلی به‌عنوان مرکز ثبت شود</string>
+    <string name="tracker_settings_geofence_location_permission_needed">ابتدا مجوز موقعیت مکانی را بدهید و دوباره تلاش کنید</string>
+    <string name="tracker_settings_geofence_getting_location">در حال دریافت موقعیت فعلی...</string>
+    <string name="tracker_settings_geofence_location_failed">دریافت موقعیت فعلی ممکن نشد</string>
+    <string name="tracker_settings_geofence_center_saved">مرکز حصار جغرافیایی ثبت شد</string>
+    <string name="tracker_settings_error_autosend_needs_number">برای ارسال خودکار، حداقل یک شماره تلفن وارد کنید</string>
+    <string name="tracker_settings_error_movealert_needs_number">برای هشدار حرکت، حداقل یک شماره تلفن وارد کنید</string>
+    <string name="tracker_settings_error_geofence_needs_center">برای حصار جغرافیایی، ابتدا مرکز را با دکمه‌ی بالا ثبت کنید</string>
+    <string name="tracker_settings_error_min_interval">حداقل بازه مجاز ۱۵ دقیقه است</string>
+    <string name="tracker_settings_warning_no_admin_numbers">توجه: چون هیچ شماره مجازی ثبت نکردید، دستورات پیامکی (sendloc, autosend, sendlog, dellog, ping) و هشدارهای SIM/Geofence ارسال نمی‌شوند</string>
+    <string name="tracker_settings_saved_autosend_on">تنظیمات ذخیره شد. ارسال خودکار پیامکی هر %1$d دقیقه فعال است. ذخیره در فایل هر %2$d دقیقه ادامه دارد.</string>
+    <string name="tracker_settings_saved_autosend_off">تنظیمات ذخیره شد. ارسال خودکار پیامکی غیرفعال است، اما ذخیره در فایل هر %1$d دقیقه ادامه دارد.\nدستورات: \'sendloc\'، \'sendlog\'، \'dellog\'، \'ping\'.</string>
+
+    <!-- Viewer main screen -->
+    <string name="viewer_screen_title">My Car Tracker — نمایشگر (Viewer)</string>
+    <string name="viewer_history_header">پیامک‌های دریافتی از ردیاب</string>
+    <string name="viewer_history_empty">هنوز پیامکی دریافت نشده.</string>
+    <string name="viewer_clear_history_button">پاک کردن تاریخچه نمایش داده شده</string>
+    <string name="viewer_sendloc_button">دریافت موقعیت زنده (sendloc)</string>
+    <string name="viewer_sendlog_button">ارسال فایل لاگ به ایمیل (sendlog)</string>
+    <string name="viewer_dellog_button">حذف آرشیو لاگ (dellog)</string>
+    <string name="viewer_ping_button">بررسی وضعیت ردیاب (ping)</string>
+    <string name="viewer_show_map_button">نمایش مسیر روی نقشه</string>
+    <string name="viewer_tracker_settings_button">تنظیمات Tracker</string>
+    <string name="viewer_manage_trackers_button">مدیریت ماشین‌ها</string>
+    <string name="viewer_no_tracker_selected">هنوز هیچ ماشینی تعریف نشده — روی «مدیریت ماشین‌ها» بزنید تا یکی اضافه کنید.</string>
+    <string name="viewer_settings_editing_tracker">در حال ویرایش: %1$s</string>
+    <string name="viewer_permissions_denied">بدون مجوز پیامک، ارسال و دریافت فرامین ممکن نیست</string>
+    <string name="viewer_history_cleared_toast">تاریخچه پاک شد</string>
+    <string name="viewer_no_phone_saved">ابتدا از «تنظیمات Tracker» شماره گوشی ردیاب را ذخیره کنید</string>
+    <string name="viewer_permissions_needed">ابتدا مجوز پیامک را بدهید</string>
+    <string name="viewer_command_sent_toast">دستور «%1$s» ارسال شد</string>
+    <string name="viewer_export_history_button">خروجی / اشتراک‌گذاری تاریخچه</string>
+    <string name="viewer_export_empty">هنوز تاریخچه‌ای برای خروجی گرفتن وجود ندارد.</string>
+    <string name="viewer_export_failed">خروجی گرفتن از تاریخچه با خطا مواجه شد.</string>
+
+    <!-- Viewer remote tracker-settings screen -->
+    <string name="viewer_tracker_settings_title">تنظیمات Tracker</string>
+    <string name="viewer_tracker_settings_subtitle">هر بخش یک پیامک دستور به گوشیِ ردیاب می‌فرستد.</string>
+    <string name="viewer_tracker_phone_label">شماره‌ی گوشیِ ردیاب (Tracker):</string>
+    <string name="viewer_tracker_phone_hint">مثلا 09121234567</string>
+    <string name="viewer_save_phone_button">ذخیره و درخواست مجوزها</string>
+    <string name="viewer_pin_label">کد امنیتی دستورها (اختیاری، باید با کد تنظیم‌شده روی ردیاب یکی باشد):</string>
+    <string name="viewer_pin_hint">خالی = بدون کد امنیتی</string>
+    <string name="viewer_save_pin_button">ذخیره کد امنیتی</string>
+    <string name="viewer_autosend_header">ارسال خودکار موقعیت (Autosend)</string>
+    <string name="viewer_autosend_interval_label">بازه ارسال (دقیقه، پیش‌فرض 15):</string>
+    <string name="viewer_autosend_on_button">فعال‌سازی (Autosend on)</string>
+    <string name="viewer_autosend_off_button">غیرفعال‌سازی (Autosend off)</string>
+    <string name="viewer_movealert_header">اعلام میزان جابجایی (MoveAlert)</string>
+    <string name="viewer_movealert_distance_label">حداقل فاصله جابجایی (متر، پیش‌فرض 50):</string>
+    <string name="viewer_movealert_on_button">فعال‌سازی (MoveAlert on)</string>
+    <string name="viewer_movealert_off_button">غیرفعال‌سازی (MoveAlert off)</string>
+    <string name="viewer_geofence_header">حصار جغرافیایی (Geofence)</string>
+    <string name="viewer_geofence_note">مرکز محدوده، موقعیت فعلی ردیاب در لحظه‌ی فعال‌سازی خواهد بود (اگر قبلاً مرکزی تنظیم نشده باشد).</string>
+    <string name="viewer_geofence_radius_label">شعاع محدوده (متر، پیش‌فرض 500):</string>
+    <string name="viewer_geofence_on_button">فعال‌سازی (Geofence on)</string>
+    <string name="viewer_geofence_off_button">غیرفعال‌سازی (Geofence off)</string>
+    <string name="viewer_lowbattery_header">هشدار کاهش سطح باتری (LowbatteryAlert)</string>
+    <string name="viewer_lowbattery_threshold_label">آستانه هشدار (درصد، پیش‌فرض 15):</string>
+    <string name="viewer_lowbattery_on_button">فعال‌سازی (LowbatteryAlert on)</string>
+    <string name="viewer_lowbattery_off_button">غیرفعال‌سازی (LowbatteryAlert off)</string>
+    <string name="viewer_set_admin_numbers_header">تنظیم شماره‌های مجاز (SetAdminNumbers)</string>
+    <string name="viewer_set_admin_numbers_note">شماره‌هایی که اجازه دارند برای ردیاب دستور بفرستند (با کاما جدا کنید):</string>
+    <string name="viewer_numbers_hint">مثلا 09121234567,09123334455</string>
+    <string name="viewer_set_admin_numbers_button">ارسال (SetAdminNumbers)</string>
+    <string name="viewer_set_autosend_numbers_header">تنظیم شماره‌های ارسال خودکار (SetAutosendNumbers)</string>
+    <string name="viewer_set_autosend_numbers_note">شماره‌هایی که موقعیت خودکار و هشدارها برایشان ارسال می‌شود (با کاما جدا کنید):</string>
+    <string name="viewer_set_autosend_numbers_button">ارسال (SetAutosendNumbers)</string>
+    <string name="viewer_set_log_timer_header">تنظیم تایمر ذخیره لاگ (SetLogTimer)</string>
+    <string name="viewer_log_timer_label">بازه ذخیره در فایل (دقیقه، پیش‌فرض 15):</string>
+    <string name="viewer_set_log_timer_button">ارسال (SetLogTimer)</string>
+    <string name="viewer_settings_permissions_granted">مجوزها با موفقیت داده شد</string>
+    <string name="viewer_settings_permissions_denied">بدون مجوز پیامک، این حالت نمی‌تواند دستور بفرستد یا پاسخ دریافت کند</string>
+    <string name="viewer_settings_error_numbers_needed">حداقل یک شماره وارد کنید</string>
+    <string name="viewer_settings_error_phone_needed">شماره گوشی ردیاب را وارد کنید</string>
+    <string name="viewer_settings_phone_saved">شماره ذخیره شد</string>
+    <string name="viewer_settings_pin_removed">کد امنیتی حذف شد</string>
+    <string name="viewer_settings_pin_saved">کد امنیتی ذخیره شد</string>
+    <string name="viewer_settings_error_no_phone">ابتدا شماره گوشی ردیاب را ذخیره کنید</string>
+    <string name="viewer_settings_error_no_permission">ابتدا مجوز پیامک را بدهید</string>
+    <string name="viewer_settings_command_sent_toast">دستور «%1$s» ارسال شد</string>
+
+    <!-- History item -->
+    <string name="history_item_show_on_map_button">نمایش روی نقشه</string>
+    <string name="history_item_no_map_app">هیچ اپ نقشه‌ای برای نمایش این موقعیت نصب نیست.</string>
+
+    <!-- Widget -->
+    <string name="widget_status_default">درخواست موقعیت زنده</string>
+    <string name="widget_status_default_with_tracker">%1$s — درخواست موقعیت زنده</string>
+    <string name="widget_button_sendloc">دریافت موقعیت (sendloc)</string>
+    <string name="widget_no_phone_saved">ابتدا شماره ردیاب را در برنامه ذخیره کنید</string>
+    <string name="widget_request_sent">درخواست موقعیت ارسال شد (%1$s)</string>
+    <string name="widget_last_request">آخرین درخواست: %1$s</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">هشدارهای ردیاب</string>
+    <string name="notification_channel_description">هشدارهای مهم مانند جابجایی، حصار جغرافیایی، باتری کم و تغییر سیم‌کارت</string>
+    <string name="notification_title">هشدار ردیاب خودرو</string>
+
+    <!-- SMS replies sent by the tracker (SmsReceiver, workers) -->
+    <string name="sms_log_getting_location">در حال دریافت موقعیت...</string>
+    <string name="sms_log_executed">اجرا شد</string>
+    <string name="sms_log_sending_email">در حال ارسال ایمیل...</string>
+    <string name="sms_log_unknown_command">دستور ناشناخته — نادیده گرفته شد</string>
+    <string name="sms_reply_autosend_on">ارسال خودکار موقعیت هر %1$d دقیقه فعال شد.</string>
+    <string name="sms_reply_autosend_off">ارسال خودکار موقعیت غیرفعال شد.</string>
+    <string name="sms_reply_dellog_done">%1$d فایل لاگ آرشیو‌شده حذف شد.</string>
+    <string name="sms_reply_ping">ردیاب فعال و آماده است. باتری: %1$s</string>
+    <string name="sms_reply_ping_battery_unknown">نامشخص</string>
+    <string name="sms_percent_value">%1$d٪</string>
+    <string name="sms_reply_movealert_on">اعلام میزان جابجایی فعال شد (حداقل %1$d متر).</string>
+    <string name="sms_reply_movealert_off">اعلام میزان جابجایی غیرفعال شد.</string>
+    <string name="sms_reply_geofence_off">حصار جغرافیایی غیرفعال شد.</string>
+    <string name="sms_reply_lowbattery_on">هشدار باتری کم فعال شد (آستانه %1$d٪).</string>
+    <string name="sms_reply_lowbattery_off">هشدار باتری کم غیرفعال شد.</string>
+    <string name="sms_reply_admin_numbers_updated">شماره‌های مجاز به‌روزرسانی شد (%1$d شماره).</string>
+    <string name="sms_reply_autosend_numbers_updated">شماره‌های ارسال خودکار به‌روزرسانی شد (%1$d شماره).</string>
+    <string name="sms_reply_log_timer_updated">بازه ذخیره لاگ به %1$d دقیقه تغییر کرد.</string>
+    <string name="sms_alert_movement">خودرو حداقل %1$d متر جابجا شد.</string>
+    <string name="sms_alert_sim_changed">هشدار: سیم‌کارت گوشیِ ردیاب تغییر کرده است! اپراتور فعلی: %1$s</string>
+    <string name="sms_alert_geofence_exit">هشدار: خودرو از محدوده‌ی تعریف‌شده خارج شد.</string>
+    <string name="sms_alert_geofence_enter">خودرو به محدوده‌ی تعریف‌شده بازگشت.</string>
+    <string name="sms_alert_battery_low">هشدار: باتری گوشیِ ردیاب کم است (%1$d٪).</string>
+    <string name="sms_alert_battery_normal">باتری گوشیِ ردیاب دوباره در وضعیت عادی است (%1$d٪).</string>
+    <string name="sms_geofence_enabled">حصار جغرافیایی با شعاع %1$d متر فعال شد.</string>
+    <string name="sms_alert_zone_exit">هشدار: خودرو از منطقه‌ی «%1$s» خارج شد.</string>
+    <string name="sms_alert_zone_enter">خودرو به منطقه‌ی «%1$s» بازگشت.</string>
+
+    <!-- Additional geofence zones (Tracker-local only, not SMS-controlled) -->
+    <string name="geofence_zones_title">مناطق اضافی</string>
+    <string name="geofence_zones_subtitle">مناطق اضافه‌بر حصار اصلی بالا — فقط از همین صفحه مدیریت می‌شوند، نه با دستور پیامکی.</string>
+    <string name="geofence_zones_empty">هنوز منطقه‌ی اضافه‌ای ثبت نشده.</string>
+    <string name="geofence_zones_add_button">افزودن منطقه‌ی جدید (با موقعیت فعلی)</string>
+    <string name="geofence_zone_radius_hint">شعاع (متر)</string>
+    <string name="geofence_zone_save_radius_button">ذخیره</string>
+    <string name="geofence_zone_delete_button">حذف منطقه</string>
+    <string name="geofence_zone_coordinates">%1$s, %2$s</string>
+    <string name="geofence_zone_radius_error">شعاعی حداقل ۵۰ متر وارد کنید</string>
+    <string name="geofence_zone_radius_saved">شعاع ذخیره شد</string>
+    <string name="geofence_zones_permission_needed">ابتدا مجوز موقعیت مکانی را بدهید</string>
+    <string name="geofence_zones_getting_location">در حال دریافت موقعیت فعلی...</string>
+    <string name="geofence_zones_location_failed">دریافت موقعیت فعلی ممکن نشد</string>
+    <string name="geofence_zone_name_hint">نام منطقه (مثلاً خانه، محل کار)</string>
+    <string name="geofence_zone_default_name">منطقه‌ی جدید</string>
+
+    <!-- Email sending -->
+    <string name="email_subject">My Car Tracker - فایل لاگ موقعیت مکانی</string>
+    <string name="email_body">فایل لاگ موقعیت مکانی این خودرو به‌صورت فشرده (zip) پیوست شده است.</string>
+    <string name="email_reply_unexpected_error">خطای غیرمنتظره در ارسال فایل لاگ: %1$s</string>
+    <string name="email_reply_no_internet">اتصال اینترنت برقرار نیست؛ ارسال فایل لاگ به ایمیل انجام نشد.</string>
+    <string name="email_reply_settings_incomplete">تنظیمات ایمیل کامل نیست؛ ابتدا از داخل اپ ایمیل‌ها را تنظیم کنید.</string>
+    <string name="email_reply_no_log_files">فایل لاگی برای ارسال وجود ندارد.</string>
+    <string name="email_reply_zip_failed">فشرده‌سازی فایل‌های لاگ با خطا مواجه شد.</string>
+    <string name="email_reply_success">فایل لاگ (فشرده) با موفقیت به ایمیل ارسال شد.</string>
+    <string name="email_reply_failure">ارسال فایل لاگ به ایمیل با خطا مواجه شد: %1$s</string>
+    <string name="email_error_unknown">نامشخص</string>
+    <string name="email_error_auth_failed">خطای احراز هویت ایمیل — احتمالاً ایمیل فرستنده یا App Password اشتباه است. </string>
+    <string name="email_error_tls">خطای TLS هنگام اتصال به سرور ایمیل. </string>
+    <string name="email_error_dns">آدرس سرور SMTP پیدا نشد (اتصال اینترنت یا DNS را بررسی کنید). </string>
+    <string name="email_error_connect">اتصال به سرور SMTP برقرار نشد (میزبان/پورت یا اینترنت را بررسی کنید). </string>
+
+    <!-- Multiple tracker (car) profiles -->
+    <string name="tracker_profile_default_name">ماشین من</string>
+    <string name="tracker_profile_name_hint">نام ماشین (مثلاً ماشین من، ماشین همسر)</string>
+    <string name="tracker_profile_phone_hint">شماره گوشیِ ردیاب</string>
+    <string name="tracker_profile_pin_hint">کد امنیتی دستورها (اختیاری)</string>
+    <string name="tracker_profile_save_button">ذخیره</string>
+    <string name="tracker_profile_delete_button">حذف</string>
+    <string name="tracker_profile_error_missing_fields">نام و شماره را وارد کنید</string>
+    <string name="tracker_profile_saved_toast">ذخیره شد</string>
+    <string name="tracker_profiles_title">مدیریت ماشین‌ها</string>
+    <string name="tracker_profiles_subtitle">چند گوشیِ ردیاب مختلف تعریف کنید، هرکدام با نام، شماره و کد امنیتی خودش. با دکمه‌ی رادیویی مشخص کنید کدام‌یک فعال باشد.</string>
+    <string name="tracker_profiles_empty">هنوز ماشینی اضافه نشده.</string>
+    <string name="tracker_profiles_add_button">افزودن ماشین جدید</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/color_surface"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/widgetStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="@color/color_text_secondary"
+        android:text="@string/widget_status_default" />
+
+    <Button
+        android:id="@+id/widgetSendlocButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/widget_button_sendloc"
+        android:textSize="12sp" />
+
+</LinearLayout>

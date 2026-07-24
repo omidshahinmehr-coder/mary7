@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="color_primary">#1E3A5F</color>
+    <color name="color_primary_dark">#132A45</color>
+    <color name="color_primary_light">#2E5B8A</color>
+    <color name="color_accent">#C9A227</color>
+    <color name="color_accent_dark">#A9861D</color>
+
+    <!-- Neutral surfaces -->
+    <color name="color_background">#F4F6F9</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_border">#E1E6ED</color>
+    <color name="color_divider">#DDE3EA</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#1F2937</color>
+    <color name="color_text_secondary">#5B6B7C</color>
+    <color name="color_text_hint">#8A99A8</color>
+    <color name="color_on_primary">#FFFFFF</color>
+
+    <!-- Alerts (reserved exclusively for warnings, never for normal actions) -->
+    <color name="color_alert">#B3261E</color>
+    <color name="color_alert_background">#FDECEC</color>
+    <color name="color_alert_border">#F3B8B8</color>
+
+    <!-- Error text (form validation, distinct from alert-message red above) -->
+    <color name="color_error">#CC0000</color>
+</resources>

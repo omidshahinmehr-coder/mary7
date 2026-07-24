@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewer_screen_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- Tracker (car) selector -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_history_item"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <Spinner
+            android:id="@+id/trackerSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/manageTrackersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:minWidth="0dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/viewer_manage_trackers_button" />
+
+    </LinearLayout>
+
+    <!-- Part 1: raw message history (unchanged) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/viewer_history_header" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_history_container">
+
+        <ListView
+            android:id="@+id/historyListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:clipToPadding="false"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:listSelector="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/emptyHistoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/viewer_history_empty"
+            android:textColor="@color/color_text_hint" />
+
+    </FrameLayout>
+
+    <!-- Part 2: action buttons — bounded height (not wrap_content) so this
+         area always scrolls to reveal every button, even on small screens,
+         instead of competing unpredictably with the weighted list above. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/clearHistoryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:text="@string/viewer_clear_history_button" />
+
+            <Button
+                android:id="@+id/sendlocButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_sendloc_button" />
+
+            <Button
+                android:id="@+id/sendlogButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_sendlog_button" />
+
+            <Button
+                android:id="@+id/dellogButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_dellog_button" />
+
+            <Button
+                android:id="@+id/pingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_ping_button" />
+
+            <Button
+                android:id="@+id/showMapButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_show_map_button" />
+
+            <Button
+                android:id="@+id/trackerSettingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/viewer_tracker_settings_button" />
+
+            <Button
+                android:id="@+id/exportHistoryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="44dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/viewer_export_history_button" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

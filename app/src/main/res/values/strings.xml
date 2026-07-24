@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Car Tracker</string>
+    <string name="about_credit">Designer: Omid Shahinmehr\nEmail: omidshahinmehr@gmail.com</string>
+
+    <!-- Login -->
+    <string name="login_hint_password">Password</string>
+    <string name="login_hint_confirm_password">Confirm password</string>
+    <string name="login_button_submit_login">Log in</string>
+    <string name="login_button_submit_set">Set password and log in</string>
+    <string name="login_button_biometric">Log in with fingerprint</string>
+    <string name="login_title_set_password">Set a password to use the app</string>
+    <string name="login_title_enter_password">Enter your password to log in</string>
+    <string name="login_biometric_prompt_title">Fingerprint login</string>
+    <string name="login_biometric_prompt_subtitle">Place your finger on the sensor to log in to My Car Tracker</string>
+    <string name="login_biometric_prompt_negative">Use password</string>
+    <string name="login_error_password_too_short">Password must be at least 4 characters</string>
+    <string name="login_error_confirm_mismatch">Passwords don\'t match</string>
+    <string name="login_error_wrong_password">Incorrect password</string>
+
+    <!-- Mode selection -->
+    <string name="mode_selection_subtitle">Which mode would you like to use?</string>
+    <string name="mode_selection_tracker_button">Tracker mode\nThis phone stays with the car/tracker</string>
+    <string name="mode_selection_viewer_button">Viewer mode\nThis phone is for control and viewing</string>
+    <string name="mode_selection_security_button">Security settings (password / fingerprint)</string>
+
+    <!-- Language picker -->
+    <string name="language_button_description">Change language</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="language_option_system">System default</string>
+    <string name="language_option_persian">فارسی (Persian)</string>
+    <string name="language_option_english">English</string>
+
+    <!-- SMS send-failure feedback -->
+    <string name="command_send_failed_toast">Failed to send command "%1$s" (no signal or radio unavailable) — try again.</string>
+
+    <!-- Security settings -->
+    <string name="security_settings_title">Security Settings</string>
+    <string name="security_settings_biometric_switch">Enable fingerprint login</string>
+    <string name="security_settings_change_password_header">Change Password</string>
+    <string name="security_settings_current_password_label">Current password:</string>
+    <string name="security_settings_new_password_label">New password:</string>
+    <string name="security_settings_confirm_new_password_label">Confirm new password:</string>
+    <string name="security_settings_change_password_button">Change Password</string>
+    <string name="security_settings_biometric_unavailable">Fingerprint login (this phone has no enrolled fingerprint or the required hardware)</string>
+    <string name="security_settings_biometric_enabled">Fingerprint login enabled</string>
+    <string name="security_settings_biometric_disabled">Fingerprint login disabled</string>
+    <string name="security_settings_error_current_wrong">Current password is incorrect</string>
+    <string name="security_settings_error_new_too_short">New password must be at least 4 characters</string>
+    <string name="security_settings_error_confirm_mismatch">New password confirmation doesn\'t match</string>
+    <string name="security_settings_success">Password changed successfully</string>
+
+    <!-- Splash -->
+    <string name="splash_title">lboodl</string>
+    <string name="splash_subtitle">Car Tracker</string>
+
+    <!-- Tracker main screen -->
+    <string name="tracker_screen_title">My Car Tracker — Tracker</string>
+    <string name="tracker_log_view_header">View Log File</string>
+    <string name="tracker_log_default_hint">No file selected — the active log file is shown by default</string>
+    <string name="tracker_browse_button">Browse — select CSV log file</string>
+    <string name="tracker_settings_button">Settings</string>
+    <string name="tracker_command_history_button">Received Command History</string>
+    <string name="tracker_log_no_file_yet">No log file has been created yet.</string>
+    <string name="tracker_log_active_file">Active file: %1$s</string>
+    <string name="tracker_log_read_error">Error reading the active log file.</string>
+    <string name="tracker_log_selected_file">Selected file: %1$s</string>
+    <string name="tracker_log_open_failed">Couldn\'t open the file</string>
+    <string name="tracker_log_selected_read_error">Error reading the selected file</string>
+    <string name="tracker_trip_stats_button">Trip Statistics</string>
+    <string name="tracker_trip_stats_not_enough_data">Not enough data points to calculate statistics.</string>
+    <string name="tracker_trip_duration_format">%1$dh %2$dm</string>
+    <string name="tracker_trip_stats_content">Points: %1$d\nTotal distance: %2$s km\nDuration: %3$s\nAverage speed: %4$s km/h\nMax speed: %5$s km/h</string>
+
+    <!-- Tracker command history -->
+    <string name="command_history_title">Received Command History</string>
+    <string name="command_history_empty">No commands received yet.</string>
+    <string name="command_history_clear_button">Clear History</string>
+    <string name="command_history_cleared_toast">History cleared</string>
+
+    <!-- Tracker settings screen -->
+    <string name="tracker_settings_header">My Car Tracker — Send location via SMS</string>
+    <string name="tracker_settings_intro1">Sending \'sendloc\' from one of the allowed numbers below requests the current location instantly.</string>
+    <string name="tracker_settings_intro2">\'autosend 30 on\' or \'autosend off\' controls automatic SMS location sending remotely. \'sendlog\' emails the (zipped) log files (requires internet), \'dellog\' deletes old archives, and \'ping\' asks whether the tracker is alive and its battery level.</string>
+    <string name="tracker_settings_admin_numbers_label">Numbers allowed to send these commands (comma-separated):</string>
+    <string name="tracker_settings_numbers_hint">e.g. 09121234567, 09123334455</string>
+    <string name="tracker_settings_autosend_numbers_label">Number(s) for automatic location &amp; movement alerts (comma-separated):</string>
+    <string name="tracker_settings_autosend_interval_label">Automatic SMS send interval (minutes, minimum 15):</string>
+    <string name="tracker_settings_interval_hint">e.g. 60</string>
+    <string name="tracker_settings_autosend_enable_switch">Enable automatic SMS sending</string>
+    <string name="tracker_settings_log_save_header">Periodically save coordinates to a file (independent of automatic SMS sending)</string>
+    <string name="tracker_settings_log_save_note">This always runs on its own timer, whether automatic SMS sending is on or off.</string>
+    <string name="tracker_settings_log_interval_label">File save interval (minutes, minimum 15):</string>
+    <string name="tracker_settings_min_distance_label">Minimum movement distance to log (meters; 0 = disabled, always log):</string>
+    <string name="tracker_settings_min_distance_hint">e.g. 200</string>
+    <string name="tracker_settings_movement_alert_switch">Send SMS to the number(s) above when this much movement occurs</string>
+    <string name="tracker_settings_battery_alert_header">Low Battery Alert</string>
+    <string name="tracker_settings_battery_alert_note">If enabled, an alert SMS is sent to the allowed numbers when the tracker phone\'s battery reaches the threshold below (or rises back above it).</string>
+    <string name="tracker_settings_battery_alert_switch">Enable low battery alert</string>
+    <string name="tracker_settings_battery_threshold_label">Alert threshold (battery %):</string>
+    <string name="tracker_settings_battery_hint">e.g. 15</string>
+    <string name="tracker_settings_geofence_header">Geofence</string>
+    <string name="tracker_settings_geofence_note">If enabled, an alert SMS is sent to the allowed numbers whenever the car leaves or re-enters the circular area below.</string>
+    <string name="tracker_settings_geofence_switch">Enable geofence</string>
+    <string name="tracker_settings_geofence_radius_label">Area radius (meters):</string>
+    <string name="tracker_settings_geofence_radius_hint">e.g. 500</string>
+    <string name="tracker_settings_set_geofence_center_button">Set current location as the area\'s center</string>
+    <string name="geofence_pick_on_map_button">Pick on map</string>
+    <string name="geofence_picker_instructions">Tap or drag the pin to the desired spot, then confirm with the ✓ button.</string>
+    <string name="geofence_source_current_location">Current location</string>
+    <string name="tracker_settings_email_header">Email log settings (for the sendlog command)</string>
+    <string name="tracker_settings_email_note">To send email, the app needs to sign in with an intermediary email account. We recommend creating a dedicated Gmail account for this and generating an "App Password" for it (not your main Gmail password).</string>
+    <string name="tracker_settings_recipient_email_label">Recipient email (where the log should be sent):</string>
+    <string name="tracker_settings_recipient_email_hint">e.g. you@example.com</string>
+    <string name="tracker_settings_sender_email_label">Sender email (the intermediary account used to send):</string>
+    <string name="tracker_settings_sender_email_hint">e.g. mycartracker@gmail.com</string>
+    <string name="tracker_settings_app_password_label">Sender email App Password:</string>
+    <string name="tracker_settings_app_password_hint">16-character Gmail App Password</string>
+    <string name="tracker_settings_smtp_host_label">SMTP server address:</string>
+    <string name="tracker_settings_smtp_port_label">SMTP port:</string>
+    <string name="tracker_settings_pin_header">Command Security Code (optional)</string>
+    <string name="tracker_settings_pin_note">If you set this code, every SMS command must start with it (e.g. "1234 sendloc"); otherwise it\'s ignored. The same code must also be entered on the "Tracker Settings" screen on the Viewer phone.</string>
+    <string name="tracker_settings_pin_hint">Empty = no security code</string>
+    <string name="tracker_settings_background_header">Background Reliability</string>
+    <string name="tracker_settings_background_note">Some phones kill background apps to save battery, which can disrupt tracking. Tap the button below to ask Android to exempt this app from battery optimization.</string>
+    <string name="tracker_settings_battery_optimization_button">Exempt from battery optimization</string>
+    <string name="tracker_settings_save_button">Save and request permissions</string>
+    <string name="tracker_settings_manage_zones_button">Manage additional zones (optional)</string>
+    <string name="tracker_settings_permissions_denied">Some permissions were not granted. The app won\'t work correctly without them.</string>
+    <string name="tracker_settings_battery_optimization_unsupported_os">This feature is only available on Android 6 (Marshmallow) or later; this phone\'s Android version is older.</string>
+    <string name="tracker_settings_battery_optimization_unavailable">This feature isn\'t available on this phone</string>
+    <string name="tracker_settings_battery_optimization_already_exempt">This app is already exempt from battery optimization</string>
+    <string name="tracker_settings_battery_optimization_failed">This phone doesn\'t support the battery-optimization exemption setting, or this screen isn\'t available on it.</string>
+    <string name="tracker_settings_geofence_center_current">Current center: %1$s, %2$s</string>
+    <string name="tracker_settings_geofence_center_not_set">No center set — tap the button above to record the current location as the center</string>
+    <string name="tracker_settings_geofence_location_permission_needed">Please grant location permission first and try again</string>
+    <string name="tracker_settings_geofence_getting_location">Getting current location…</string>
+    <string name="tracker_settings_geofence_location_failed">Couldn\'t get the current location</string>
+    <string name="tracker_settings_geofence_center_saved">Geofence center saved</string>
+    <string name="tracker_settings_error_autosend_needs_number">Enter at least one phone number for automatic sending</string>
+    <string name="tracker_settings_error_movealert_needs_number">Enter at least one phone number for movement alerts</string>
+    <string name="tracker_settings_error_geofence_needs_center">Set the center first using the button above, for geofencing</string>
+    <string name="tracker_settings_error_min_interval">The minimum allowed interval is 15 minutes</string>
+    <string name="tracker_settings_warning_no_admin_numbers">Note: since you haven\'t saved any allowed numbers, SMS commands (sendloc, autosend, sendlog, dellog, ping) and SIM/Geofence alerts won\'t be sent</string>
+    <string name="tracker_settings_saved_autosend_on">Settings saved. Automatic SMS sending is active every %1$d minutes. File saving continues every %2$d minutes.</string>
+    <string name="tracker_settings_saved_autosend_off">Settings saved. Automatic SMS sending is off, but file saving continues every %1$d minutes.\nCommands: \'sendloc\', \'sendlog\', \'dellog\', \'ping\'.</string>
+
+    <!-- Viewer main screen -->
+    <string name="viewer_screen_title">My Car Tracker — Viewer</string>
+    <string name="viewer_history_header">Messages received from the tracker</string>
+    <string name="viewer_history_empty">No messages received yet.</string>
+    <string name="viewer_clear_history_button">Clear displayed history</string>
+    <string name="viewer_sendloc_button">Get live location (sendloc)</string>
+    <string name="viewer_sendlog_button">Send log file by email (sendlog)</string>
+    <string name="viewer_dellog_button">Delete log archive (dellog)</string>
+    <string name="viewer_ping_button">Check tracker status (ping)</string>
+    <string name="viewer_show_map_button">Show route on map</string>
+    <string name="viewer_tracker_settings_button">Tracker Settings</string>
+    <string name="viewer_manage_trackers_button">Manage cars</string>
+    <string name="viewer_no_tracker_selected">No car defined yet — tap "Manage cars" to add one.</string>
+    <string name="viewer_settings_editing_tracker">Editing: %1$s</string>
+    <string name="viewer_permissions_denied">Without SMS permission, sending/receiving commands isn\'t possible</string>
+    <string name="viewer_history_cleared_toast">History cleared</string>
+    <string name="viewer_no_phone_saved">First save the tracker\'s phone number from "Tracker Settings"</string>
+    <string name="viewer_permissions_needed">Please grant SMS permission first</string>
+    <string name="viewer_command_sent_toast">Command "%1$s" sent</string>
+    <string name="viewer_export_history_button">Export / share history</string>
+    <string name="viewer_export_empty">There\'s no history to export yet.</string>
+    <string name="viewer_export_failed">Exporting the history failed.</string>
+
+    <!-- Viewer remote tracker-settings screen -->
+    <string name="viewer_tracker_settings_title">Tracker Settings</string>
+    <string name="viewer_tracker_settings_subtitle">Each section sends one SMS command to the tracker phone.</string>
+    <string name="viewer_tracker_phone_label">Tracker phone number:</string>
+    <string name="viewer_tracker_phone_hint">e.g. 09121234567</string>
+    <string name="viewer_save_phone_button">Save and request permissions</string>
+    <string name="viewer_pin_label">Command security code (optional, must match the code set on the tracker):</string>
+    <string name="viewer_pin_hint">Empty = no security code</string>
+    <string name="viewer_save_pin_button">Save security code</string>
+    <string name="viewer_autosend_header">Automatic Location Sending (Autosend)</string>
+    <string name="viewer_autosend_interval_label">Send interval (minutes, default 15):</string>
+    <string name="viewer_autosend_on_button">Enable (Autosend on)</string>
+    <string name="viewer_autosend_off_button">Disable (Autosend off)</string>
+    <string name="viewer_movealert_header">Movement Alert (MoveAlert)</string>
+    <string name="viewer_movealert_distance_label">Minimum movement distance (meters, default 50):</string>
+    <string name="viewer_movealert_on_button">Enable (MoveAlert on)</string>
+    <string name="viewer_movealert_off_button">Disable (MoveAlert off)</string>
+    <string name="viewer_geofence_header">Geofence</string>
+    <string name="viewer_geofence_note">The area\'s center will be the tracker\'s current location at the moment of activation (if no center has been set already).</string>
+    <string name="viewer_geofence_radius_label">Area radius (meters, default 500):</string>
+    <string name="viewer_geofence_on_button">Enable (Geofence on)</string>
+    <string name="viewer_geofence_off_button">Disable (Geofence off)</string>
+    <string name="viewer_lowbattery_header">Low Battery Alert (LowbatteryAlert)</string>
+    <string name="viewer_lowbattery_threshold_label">Alert threshold (%%, default 15):</string>
+    <string name="viewer_lowbattery_on_button">Enable (LowbatteryAlert on)</string>
+    <string name="viewer_lowbattery_off_button">Disable (LowbatteryAlert off)</string>
+    <string name="viewer_set_admin_numbers_header">Set Allowed Numbers (SetAdminNumbers)</string>
+    <string name="viewer_set_admin_numbers_note">Numbers allowed to send commands to the tracker (comma-separated):</string>
+    <string name="viewer_numbers_hint">e.g. 09121234567,09123334455</string>
+    <string name="viewer_set_admin_numbers_button">Send (SetAdminNumbers)</string>
+    <string name="viewer_set_autosend_numbers_header">Set Autosend Numbers (SetAutosendNumbers)</string>
+    <string name="viewer_set_autosend_numbers_note">Numbers that automatic location &amp; alerts are sent to (comma-separated):</string>
+    <string name="viewer_set_autosend_numbers_button">Send (SetAutosendNumbers)</string>
+    <string name="viewer_set_log_timer_header">Set Log Save Timer (SetLogTimer)</string>
+    <string name="viewer_log_timer_label">File save interval (minutes, default 15):</string>
+    <string name="viewer_set_log_timer_button">Send (SetLogTimer)</string>
+    <string name="viewer_settings_permissions_granted">Permissions granted successfully</string>
+    <string name="viewer_settings_permissions_denied">Without SMS permission, this mode can\'t send commands or receive replies</string>
+    <string name="viewer_settings_error_numbers_needed">Enter at least one number</string>
+    <string name="viewer_settings_error_phone_needed">Enter the tracker\'s phone number</string>
+    <string name="viewer_settings_phone_saved">Number saved</string>
+    <string name="viewer_settings_pin_removed">Security code removed</string>
+    <string name="viewer_settings_pin_saved">Security code saved</string>
+    <string name="viewer_settings_error_no_phone">First save the tracker\'s phone number</string>
+    <string name="viewer_settings_error_no_permission">Please grant SMS permission first</string>
+    <string name="viewer_settings_command_sent_toast">Command "%1$s" sent</string>
+
+    <!-- History item -->
+    <string name="history_item_show_on_map_button">Show on map</string>
+    <string name="history_item_no_map_app">No map app is installed to show this location.</string>
+
+    <!-- Widget -->
+    <string name="widget_status_default">Request live location</string>
+    <string name="widget_status_default_with_tracker">%1$s — request live location</string>
+    <string name="widget_button_sendloc">Get location (sendloc)</string>
+    <string name="widget_no_phone_saved">First save the tracker\'s number in the app</string>
+    <string name="widget_request_sent">Location request sent (%1$s)</string>
+    <string name="widget_last_request">Last request: %1$s</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Tracker alerts</string>
+    <string name="notification_channel_description">Important alerts such as movement, geofence, low battery, and SIM change</string>
+    <string name="notification_title">Car tracker alert</string>
+
+    <!-- SMS replies sent by the tracker (SmsReceiver, workers) -->
+    <string name="sms_log_getting_location">Getting location…</string>
+    <string name="sms_log_executed">Executed</string>
+    <string name="sms_log_sending_email">Sending email…</string>
+    <string name="sms_log_unknown_command">Unknown command — ignored</string>
+    <string name="sms_reply_autosend_on">Automatic location sending enabled, every %1$d minutes.</string>
+    <string name="sms_reply_autosend_off">Automatic location sending disabled.</string>
+    <string name="sms_reply_dellog_done">%1$d archived log file(s) deleted.</string>
+    <string name="sms_reply_ping">Tracker is on and ready. Battery: %1$s</string>
+    <string name="sms_reply_ping_battery_unknown">unknown</string>
+    <string name="sms_percent_value">%1$d%%</string>
+    <string name="sms_reply_movealert_on">Movement alert enabled (minimum %1$d meters).</string>
+    <string name="sms_reply_movealert_off">Movement alert disabled.</string>
+    <string name="sms_reply_geofence_off">Geofence disabled.</string>
+    <string name="sms_reply_lowbattery_on">Low battery alert enabled (threshold %1$d%%).</string>
+    <string name="sms_reply_lowbattery_off">Low battery alert disabled.</string>
+    <string name="sms_reply_admin_numbers_updated">Allowed numbers updated (%1$d number(s)).</string>
+    <string name="sms_reply_autosend_numbers_updated">Autosend numbers updated (%1$d number(s)).</string>
+    <string name="sms_reply_log_timer_updated">Log save interval changed to %1$d minutes.</string>
+    <string name="sms_alert_movement">The car moved at least %1$d meters.</string>
+    <string name="sms_alert_sim_changed">Alert: the tracker phone\'s SIM card has changed! Current carrier: %1$s</string>
+    <string name="sms_alert_geofence_exit">Alert: the car has left the defined area.</string>
+    <string name="sms_alert_geofence_enter">The car has returned to the defined area.</string>
+    <string name="sms_alert_battery_low">Alert: the tracker phone\'s battery is low (%1$d%%).</string>
+    <string name="sms_alert_battery_normal">The tracker phone\'s battery is back to normal (%1$d%%).</string>
+    <string name="sms_geofence_enabled">Geofence enabled with a radius of %1$d meters.</string>
+    <string name="sms_alert_zone_exit">Alert: the car has left the "%1$s" zone.</string>
+    <string name="sms_alert_zone_enter">The car has returned to the "%1$s" zone.</string>
+
+    <!-- Additional geofence zones (Tracker-local only, not SMS-controlled) -->
+    <string name="geofence_zones_title">Additional Zones</string>
+    <string name="geofence_zones_subtitle">Extra zones beyond the main geofence above — managed only here, not by SMS command.</string>
+    <string name="geofence_zones_empty">No additional zones yet.</string>
+    <string name="geofence_zones_add_button">Add new zone (uses current location)</string>
+    <string name="geofence_zone_radius_hint">Radius (meters)</string>
+    <string name="geofence_zone_save_radius_button">Save</string>
+    <string name="geofence_zone_delete_button">Delete zone</string>
+    <string name="geofence_zone_coordinates">%1$s, %2$s</string>
+    <string name="geofence_zone_radius_error">Enter a radius of at least 50 meters</string>
+    <string name="geofence_zone_radius_saved">Radius saved</string>
+    <string name="geofence_zones_permission_needed">Grant location permission first</string>
+    <string name="geofence_zones_getting_location">Getting current location…</string>
+    <string name="geofence_zones_location_failed">Couldn\'t get the current location</string>
+    <string name="geofence_zone_name_hint">Zone name (e.g. Home, Work)</string>
+    <string name="geofence_zone_default_name">New zone</string>
+
+    <!-- Email sending -->
+    <string name="email_subject">My Car Tracker - Location Log File</string>
+    <string name="email_body">This car\'s location log file is attached, compressed (zip).</string>
+    <string name="email_reply_unexpected_error">Unexpected error sending the log file: %1$s</string>
+    <string name="email_reply_no_internet">No internet connection; sending the log file by email failed.</string>
+    <string name="email_reply_settings_incomplete">Email settings are incomplete; set up the emails from inside the app first.</string>
+    <string name="email_reply_no_log_files">There are no log files to send.</string>
+    <string name="email_reply_zip_failed">Compressing the log files failed.</string>
+    <string name="email_reply_success">The (zipped) log file was sent to the email successfully.</string>
+    <string name="email_reply_failure">Sending the log file by email failed: %1$s</string>
+    <string name="email_error_unknown">unknown</string>
+    <string name="email_error_auth_failed">Email authentication error — the sender email or App Password is probably wrong. </string>
+    <string name="email_error_tls">TLS error while connecting to the email server. </string>
+    <string name="email_error_dns">SMTP server address not found (check your internet connection or DNS). </string>
+    <string name="email_error_connect">Couldn\'t connect to the SMTP server (check the host/port or your internet connection). </string>
+
+    <!-- Multiple tracker (car) profiles -->
+    <string name="tracker_profile_default_name">My car</string>
+    <string name="tracker_profile_name_hint">Car name (e.g. My car, Wife\'s car)</string>
+    <string name="tracker_profile_phone_hint">Tracker phone number</string>
+    <string name="tracker_profile_pin_hint">Command PIN (optional)</string>
+    <string name="tracker_profile_save_button">Save</string>
+    <string name="tracker_profile_delete_button">Delete</string>
+    <string name="tracker_profile_error_missing_fields">Enter a name and a phone number</string>
+    <string name="tracker_profile_saved_toast">Saved</string>
+    <string name="tracker_profiles_title">Manage Cars</string>
+    <string name="tracker_profiles_subtitle">Define several tracker phones, each with its own name, number, and PIN. Pick which one is active with the radio button.</string>
+    <string name="tracker_profiles_empty">No cars added yet.</string>
+    <string name="tracker_profiles_add_button">Add new car</string>
+</resources>

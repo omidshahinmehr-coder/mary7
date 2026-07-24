@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Black background with an extremely subtle dark-blue radial glow
+         behind the text, for depth, while staying effectively black. -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="420dp"
+        android:centerX="0.5"
+        android:centerY="0.42"
+        android:startColor="#0A1620"
+        android:centerColor="#04080C"
+        android:endColor="#000000" />
+</shape>
