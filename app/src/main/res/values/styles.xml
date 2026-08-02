@@ -1,23 +1,23 @@
 <resources>
 
-    <!-- دکمه‌های سفارشی برنامه -->
+    <!-- دکمه‌ها با سایز کوچک‌تر -->
     <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">0</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
-        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="cornerRadius">8dp</item>
         <item name="backgroundTint">@color/color_primary</item>
         <item name="android:textColor">@color/color_on_primary</item>
         <item name="rippleColor">@color/color_accent</item>
     </style>
 
 
-    <!-- تم اصلی برنامه -->
+    <!-- تم مخصوص گوشی‌های کوچک -->
     <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
-        <!-- رنگ‌ها -->
+        <!-- رنگ‌ها مثل نسخه اصلی -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
@@ -29,35 +29,28 @@
         <item name="materialButtonStyle">@style/Widget.App.Button</item>
         <item name="android:statusBarColor">@color/color_primary_dark</item>
 
-        <!-- فونت جدید روی کل برنامه -->
+        <!-- فونت estedad -->
         <item name="android:fontFamily">@font/estedad</item>
         <item name="fontFamily">@font/estedad</item>
 
-        <!-- سازگاری کامل با Material Components -->
-        <item name="textAppearanceBody1">@style/AppTextAppearance</item>
-        <item name="textAppearanceBody2">@style/AppTextAppearance</item>
-        <item name="textAppearanceHeadline1">@style/AppTextAppearance</item>
+        <!-- متن‌های کوچک‌تر -->
+        <item name="textAppearanceBody1">@style/AppTextAppearance.Small</item>
+        <item name="textAppearanceBody2">@style/AppTextAppearance.Small</item>
+        <item name="textAppearanceHeadline1">@style/AppTitleAppearance.Small</item>
 
     </style>
 
 
-    <!-- TextAppearance مشترک برای همه‌ی کامپوننت‌های متریال -->
-    <style name="AppTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+    <!-- متن‌های معمولی کوچک‌تر -->
+    <style name="AppTextAppearance.Small" parent="TextAppearance.MaterialComponents.Body1">
         <item name="fontFamily">@font/estedad</item>
+        <item name="android:textSize">13sp</item>
     </style>
 
-
-    <!-- تم صفحه‌ی اسپلش -->
-    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/black</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-
-        <!-- اگر اسپلش متن دارد، فونت روی آن هم اعمال می‌شود -->
-        <item name="android:fontFamily">@font/estedad</item>
+    <!-- عنوان‌ها کوچک‌تر -->
+    <style name="AppTitleAppearance.Small" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/estedad</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
 </resources>
