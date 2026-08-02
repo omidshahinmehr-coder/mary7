@@ -1,4 +1,6 @@
 <resources>
+
+    <!-- دکمه‌های سفارشی برنامه -->
     <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">15sp</item>
@@ -11,7 +13,11 @@
         <item name="rippleColor">@color/color_accent</item>
     </style>
 
+
+    <!-- تم اصلی برنامه -->
     <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- رنگ‌ها -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
@@ -22,13 +28,36 @@
         <item name="android:textColorSecondary">@color/color_text_secondary</item>
         <item name="materialButtonStyle">@style/Widget.App.Button</item>
         <item name="android:statusBarColor">@color/color_primary_dark</item>
+
+        <!-- فونت جدید روی کل برنامه -->
+        <item name="android:fontFamily">@font/estedad</item>
+        <item name="fontFamily">@font/estedad</item>
+
+        <!-- سازگاری کامل با Material Components -->
+        <item name="textAppearanceBody1">@style/AppTextAppearance</item>
+        <item name="textAppearanceBody2">@style/AppTextAppearance</item>
+        <item name="textAppearanceHeadline1">@style/AppTextAppearance</item>
+
     </style>
 
+
+    <!-- TextAppearance مشترک برای همه‌ی کامپوننت‌های متریال -->
+    <style name="AppTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/estedad</item>
+    </style>
+
+
+    <!-- تم صفحه‌ی اسپلش -->
     <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/black</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- اگر اسپلش متن دارد، فونت روی آن هم اعمال می‌شود -->
+        <item name="android:fontFamily">@font/estedad</item>
+        <item name="fontFamily">@font/estedad</item>
     </style>
+
 </resources>
