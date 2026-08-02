@@ -13,11 +13,8 @@
         <item name="rippleColor">@color/color_accent</item>
     </style>
 
-
     <!-- تم مخصوص گوشی‌های کوچک -->
     <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-
-        <!-- رنگ‌ها مثل نسخه اصلی -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
@@ -37,9 +34,7 @@
         <item name="textAppearanceBody1">@style/AppTextAppearance.Small</item>
         <item name="textAppearanceBody2">@style/AppTextAppearance.Small</item>
         <item name="textAppearanceHeadline1">@style/AppTitleAppearance.Small</item>
-
     </style>
-
 
     <!-- متن‌های معمولی کوچک‌تر -->
     <style name="AppTextAppearance.Small" parent="TextAppearance.MaterialComponents.Body1">
@@ -51,6 +46,19 @@
     <style name="AppTitleAppearance.Small" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/estedad</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- اسپلش باید اینجا هم باشد تا خطا رفع شود -->
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- فونت اسپلش (مثل نسخه اصلی) -->
+        <item name="android:fontFamily">@font/estedad</item>
+        <item name="fontFamily">@font/estedad</item>
     </style>
 
 </resources>
